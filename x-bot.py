@@ -18,6 +18,7 @@ options.add_experimental_option("detach", True)
 
 # timeout = time.wait(3)
 
+
 # retrieve website
 options = options
 driver = webdriver.Chrome(options)
