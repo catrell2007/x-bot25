@@ -18,6 +18,7 @@ options.add_experimental_option("detach", True)
 
 # timeout = time.wait(3)
 
+#added a little bit
 
 # retrieve website
 options = options
