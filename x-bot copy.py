@@ -62,6 +62,8 @@ if len(driver.find_elements(By.XPATH, "//div[@data-testid='videoComponent']")) >
 else:
     com_section.click()
 
-# Optionally, quit the driver after performing all actions
-driver.quit()
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+
+
 
